@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Planes!</title>
+</head>
+<body>
+	<h1>Hello Pilots ...</h1>
+
+	<% @planes.each do |plane| %>
+
+	<p><%= plane.name %></p>
+	<p><%= plane.kind %></p>
+	<p><%= plane.description %></p>
+
+	<br><br>
+
+	<% end %>
+</body>
+</html>
